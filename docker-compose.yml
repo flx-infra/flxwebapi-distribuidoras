@@ -2,7 +2,7 @@ version: '3.6'
 
 services:
   flxwebapi:
-    image: fabreguesm/flxwebapi:2.8.316
+    image: fabreguesm/flxwebapi:2.8.316-serverlicencia
     ports:
       - '5007:5000'
     networks:
