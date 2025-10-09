@@ -13,7 +13,9 @@ services:
       - 'pdf_data:/app/public/pdf/'            
     deploy:      
       placement:
-        constraints: ["${NODE}"]          
+        constraints: ["${NODE}"]     
+    environment:
+      - URL_LICENSESERVER=http://10.250.0.68:5006/
     logging:
       driver: loki
       options:
