@@ -2,7 +2,7 @@ version: '3.6'
 
 services:
   flxwebapi:
-    image: fabreguesm/flxwebapi:2.8.321-serverlicencia
+    image: fabreguesm/flxwebapi:2.8.323-serverlicencia
     hostname: flxwebapi-distribuidoras
     ports:
       - '5007:5000'
